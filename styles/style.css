@@ -75,4 +75,47 @@ body {
 	bottom: 0;
 	left: 0;
 }
+.comment__content {
+	font-size: 16px;
+}
+.comment__pic {
+	border-radius: 50%;
+	background-image: url(../images/visitor.png);
+	width: 192px;
+	height: 192px;
+	border: 1px solid #9f9f9f;
+}
 
+.comment__datatime {
+	color: #6e6e6e;
+	position: relative;
+	padding-left: 20px;
+}
+.comment__datatime::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 16px;
+	height: 18px;
+	background-image: url(../images/time.png);
+}
+.comment__name {
+	color: #000;
+	font-size: 20px;
+	font-weight: 700;
+	margin-right: 34px;
+
+}
+.comment__text {
+	color: #797979;
+	margin-top: 36px;
+}
+.inline-row {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: baseline;
+	justify-content: flex-start;
+}
